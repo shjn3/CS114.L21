@@ -1,7 +1,8 @@
+# CS114.L21 - MÁY HỌC - MACHINE LEARNING
 ## BẢNG MỤC LỤC
 * [ Giới thiệu môn học](#gt)
-* [Quá trình học tập](#qt)
 * [ Giảng viên hướng dẫn](#gv)
+* [Quá trình học tập](#qt)
 * [ Thành viên nhóm](#tv)
 * [ Đồ án môn học](#doan)
 ## Giới thiệu môn học
