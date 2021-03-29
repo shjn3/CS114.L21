@@ -1,0 +1,21 @@
+n,m = map(str,input().split())
+
+kc = len(m)-len(n)
+if kc == 0:
+    print(1)
+else:
+    lc = int(m[0])
+    dem = lc*(10**(kc-1))
+    tmp_m = int(m[-len(n):len(m)])
+    tmp_n = int(n)
+    if kc == 1:
+        if tmp_m >= tmp_n:
+            print(dem+1)
+        else:
+            print(dem)
+    else:
+        tmp = int(m[1:-len(n)])
+        if tmp_m>=tmp_n:
+            print(dem+tmp+1)
+        else:
+            print(dem+tmp)
